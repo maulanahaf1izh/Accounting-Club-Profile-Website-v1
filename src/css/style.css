@@ -216,7 +216,7 @@ body {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 20px;
     margin: auto;
-    max-width: 1024px;
+    max-width: 1440px;
 
     > div {
       padding: 10px;
@@ -291,8 +291,44 @@ body {
         font-weight: 500;
       }
 
-      > p.university {
+      > p.status {
         font-weight: 300;
+      }
+
+      > a {
+        color: #ff0069;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        background-color: white;
+        padding: 7px 10px;
+        border-radius: 15px;
+        border: 2px solid #ff0069;
+        transition: 0.3s ease;
+        font-size: var(--font-body-default);
+        width: fit-content;
+        margin: auto;
+
+        > svg {
+          width: 25px;
+        }
+
+        > p {
+          font-weight: bold;
+        }
+      }
+
+      > a:active {
+        background-color: #ff0069;
+
+        > svg {
+          fill: white;
+        }
+
+        > p {
+          color: white;
+        }
       }
     }
   }
@@ -304,7 +340,7 @@ body {
     background-color: white;
     padding: 15px;
     border-radius: 15px;
-    max-width: 1024px;
+    max-width: 1440px;
     margin: auto;
 
     > h5 {
@@ -328,13 +364,51 @@ body {
         grid-template-columns: repeat(1, minmax(0, 1fr));
         gap: 5px;
         font-size: var(--font-body-default);
+        overflow: hidden;
 
         > p.name {
           font-weight: 500;
         }
 
-        > p.university {
+        > p.status {
           font-weight: 300;
+        }
+
+        > a {
+          color: #ff0069;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 5px;
+          background-color: white;
+          padding: 7px 10px;
+          border-radius: 15px;
+          border: 2px solid #ff0069;
+          transition: 0.3s ease;
+          font-size: var(--font-body-default);
+          width: fit-content;
+          margin: auto;
+
+          > svg {
+            width: 15px;
+          }
+
+          > p {
+            font-weight: bold;
+            display: none;
+          }
+        }
+
+        > a:active {
+          background-color: #ff0069;
+
+          > svg {
+            fill: white;
+          }
+
+          > p {
+            color: white;
+          }
         }
       }
     }
@@ -363,13 +437,12 @@ body {
     background-color: white;
     padding: 10px;
     border-radius: 15px;
-    max-width: 1024px;
+    max-width: 1440px;
     margin: auto;
 
     > img {
       border-radius: 15px;
       aspect-ratio: calc(3 / 2);
-      /* object-fit: cover; */
     }
 
     > p {
@@ -386,7 +459,7 @@ body {
     padding: 10px;
     border-radius: 15px;
     align-items: center;
-    max-width: 1024px;
+    max-width: 1440px;
     margin: auto;
 
     > p {
@@ -466,7 +539,7 @@ body {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 20px;
-    max-width: 1024px;
+    max-width: 1440px;
     margin: auto;
 
     .contact-content {
@@ -639,6 +712,18 @@ body {
 
       > div {
         font-size: var(--font-body-tablet);
+
+        > a {
+          font-size: var(--font-body-tablet);
+
+          > svg {
+            width: 25px;
+          }
+
+          > p {
+            display: block;
+          }
+        }
       }
     }
 
@@ -653,6 +738,18 @@ body {
       > div {
         > div {
           font-size: var(--font-body-tablet);
+
+          > a {
+            font-size: var(--font-body-tablet);
+
+            > svg {
+              width: 25px;
+            }
+
+            > p {
+              display: block;
+            }
+          }
         }
       }
     }
@@ -689,10 +786,6 @@ body {
           > div {
             > h5 {
               font-size: var(--font-subheading-tablet);
-            }
-
-            > img {
-              aspect-ratio: calc(3 / 2);
             }
 
             > p {
@@ -820,6 +913,10 @@ body {
 
       > div {
         font-size: var(--font-body-laptop);
+
+        > a {
+          font-size: var(--font-body-laptop);
+        }
       }
     }
 
@@ -834,6 +931,10 @@ body {
       > div {
         > div {
           font-size: var(--font-body-laptop);
+
+          > a {
+            font-size: var(--font-body-laptop);
+          }
         }
       }
     }
@@ -964,6 +1065,10 @@ body {
 
       > div {
         font-size: var(--font-body-laptopL);
+
+        > a {
+          font-size: var(--font-body-laptopL);
+        }
       }
     }
 
@@ -975,6 +1080,10 @@ body {
       > div {
         > div {
           font-size: var(--font-body-laptopL);
+
+          > a {
+            font-size: var(--font-body-laptopL);
+          }
         }
       }
     }
