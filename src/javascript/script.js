@@ -198,7 +198,7 @@ const mentors = [
 
   {
     name: "Bryan Maulana Ibrahim",
-    status: "Mahasiswi Manajemen Universitas Islam Negeri Semarang",
+    status: "Mahasiswa Manajemen Universitas Islam Negeri Semarang",
     instagram: "bryanmaulana__",
   },
 ];
