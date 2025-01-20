@@ -276,10 +276,17 @@ const places = [
   },
 
   {
-    name: "Sekretariat Student Care",
+    name: "RPTRA Seruni",
     address:
-      "Jl. B II No.30 8, RT.8/RW.7, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12520",
-    location: "XHra2rXG3BXcMbfq8",
+      "Gang Haji Saibun, RT.8/RW.9, Jati Padang, Pasar Minggu, RT.8/RW.9, Jati Padang, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12540",
+    location: "Hy24YAhKxA4S4wu1A",
+  },
+
+  {
+    name: "RPTRA Penjaringan Indah",
+    address:
+      "Raya Jl. Bandengan Utara No.80 9, RT.9/RW.16, Penjaringan, Kec. Penjaringan, Jkt Utara, Daerah Khusus Ibukota Jakarta 14440",
+    location: "xv7nrdpkqNyezhB19",
   },
 ];
 places.forEach((place) => {
