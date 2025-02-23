@@ -1,3 +1,4 @@
+// Menu Section
 const menu = document.querySelector("#nav.nav > .nav-menu");
 const hamburgerMenu = document.querySelector("#nav.nav > .nav-hamburger-menu");
 hamburgerMenu.addEventListener("click", () => {
@@ -16,6 +17,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
+// Services Section
 const servicesGrid = document.querySelector(".services-grid");
 const services = [
   {
@@ -67,6 +69,7 @@ services.forEach((service) => {
   servicesGrid.appendChild(serviceDiv);
 });
 
+// Teams Section
 const teamsGrid = document.querySelector(".teams-grid");
 const mentors = [
   {
@@ -109,12 +112,6 @@ const mentors = [
     name: "Mohamad Adi Arul Alam",
     status: "Mahasiswa Akuntansi Universitas Negeri Jakarta",
     instagram: "adiarulalam_",
-  },
-
-  {
-    name: "Abdan Faqih Izzudin",
-    status: "Mahasiswa Akuntansi Universitas Negeri Jakarta",
-    instagram: "abdanfqh",
   },
 
   {
@@ -222,9 +219,12 @@ mentors.forEach((mentor) => {
   teamsGrid.appendChild(mentorDiv);
 });
 
+// About Section
 const aboutContent2WrapGrid = document.querySelector(
   ".about-content-2-wrap-grid"
 );
+
+// Place Section
 const places = [
   {
     name: "RPTRA Kejora",
